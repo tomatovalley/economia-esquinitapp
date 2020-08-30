@@ -14,7 +14,13 @@ class MapPage extends StatelessWidget {
         onTap: () {},
       ),
       drawer: CustomDrawer(),
-      body: const Center(child: Text('map page')),
+      body: Container(
+        height: double.infinity,
+        child: Image.asset(
+          'assets/map.png',
+          fit: BoxFit.fitHeight,
+        ),
+      ),
     );
   }
 }
