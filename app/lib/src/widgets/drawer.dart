@@ -2,6 +2,7 @@ import 'package:abarrotify/src/pages/list_page.dart';
 import 'package:abarrotify/src/pages/map_page.dart';
 import 'package:abarrotify/src/pages/seller/become_seller.dart';
 import 'package:abarrotify/src/pages/shopping_basket_page.dart';
+import 'package:abarrotify/src/services/authentication.dart';
 import 'package:flutter/material.dart';
 
 class CustomDrawer extends StatelessWidget {
@@ -19,7 +20,7 @@ class CustomDrawer extends StatelessWidget {
               style: TextStyle(color: Colors.grey[850], fontSize: 16),
             ),
             accountEmail: Text(
-              'villaceniceros@gmail.com',
+              Auth().getCurrentUser().email ?? '',
               style: TextStyle(color: Colors.grey[850], fontSize: 16),
             ),
           ),
@@ -71,7 +72,13 @@ class CustomDrawer extends StatelessWidget {
           ListTile(
             title: const Text('Legales'),
             onTap: () {},
-          )
+          ),
+          ListTile(
+            title: const Text('Log Out'),
+            onTap: () {
+              Auth().signOut(context);
+            },
+          ),
         ],
       ),
     );
