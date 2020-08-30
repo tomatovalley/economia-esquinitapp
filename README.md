@@ -86,8 +86,6 @@ Para poder levantar el proyecto necesitas del siguiente software instalado y fun
 
 ### Equipo EsquinitApp
 
-### Equipo Axolo team
-
 - [edwVilla](http://github.com/edwvilla)
 - [Eriko13](https://github.com/eriko13)
 - [jcstr](https://github.com/jcstr)
