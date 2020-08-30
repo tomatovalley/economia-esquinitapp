@@ -1,10 +1,6 @@
 # Equipo 10 - EsquinitApp 🏠💰
 
-Una plataforma de E-commerce ecólogica y del ADN de las cosas.
-
-Todo lo que compras ha sido parte de alguna cadena de productos, el ADN te ayudará a entender que impacto ecológico estarás evitando y además concientizar sobre el uso y beneficios de la reutilización de productos sustentables.
-
-Axolo Commerce es un ejercicio de comunidad y empatía por el medio ambiente 🪴🌿♻
+Descripcion
 
 ## 📖 Índice
 
